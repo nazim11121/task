@@ -1,0 +1,132 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Pages"
+    },
+    {
+      "name": "Slider",
+      "icon": "menu-icon tf-icons bx bx-grid-alt",
+      "slug": "slider",
+      "submenu": [
+        {
+          "url": "/admin/slider",
+          "name": "List",
+          "slug": "slider.index"
+        },
+        {
+          "url": "/admin/slider/create",
+          "name": "Create",
+          "slug": "slider.create"
+        }
+      ]  
+    },
+    {
+      "name": "Category",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "slug": "category",
+      "submenu": [
+        {
+          "url": "/admin/category",
+          "name": "List",
+          "slug": "category.list"
+        },
+        {
+          "url": "/admin/category/create",
+          "name": "Create",
+          "slug": "category.create"
+        }
+      ]  
+    },
+    {
+      "name": "Product",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "slug": "product",
+      "submenu": [
+        {
+          "url": "/admin/product",
+          "name": "List",
+          "slug": "product.index"
+        },
+        {
+          "url": "/admin/product/create",
+          "name": "Create",
+          "slug": "product.create"
+        }
+      ]  
+    },
+    {
+      "name": "Interest Rate",
+      "icon": "menu-icon tf-icons bx bx-receipt",
+      "slug": "interest",
+      "submenu": [
+        {
+          "url": "/admin/interest",
+          "name": "List",
+          "slug": "interest.index"
+        },
+        {
+          "url": "/admin/interest/create",
+          "name": "Create",
+          "slug": "interest.create"
+        }
+      ]  
+    },
+    {
+      "name": "Faq",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "faq",
+      "submenu": [
+        {
+          "url": "/admin/faq",
+          "name": "List",
+          "slug": "faq.index"
+        },
+        {
+          "url": "/admin/faq/create",
+          "name": "Create",
+          "slug": "faq.create"
+        }
+      ]  
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user-circle",
+      "slug": "users",
+      "submenu": [
+        {
+          "url": "/admin/users",
+          "name": "List",
+          "slug": "users.index"
+        },
+        {
+          "url": "/admin/users/create",
+          "name": "Create",
+          "slug": "users.create"
+        }
+      ]  
+    },
+    {
+      "name": "Role & Permissions",
+      "icon": "menu-icon tf-icons bx bx-slider",
+      "slug": "roles",
+      "submenu": [
+        {
+          "url": "/admin/roles",
+          "name": "List",
+          "slug": "roles.index"
+        },
+        {
+          "url": "/admin/roles/create",
+          "name": "Create",
+          "slug": "roles.create"
+        }
+      ]  
+    }
+  ]
+}
